@@ -1,32 +1,28 @@
-# Hi there, I'm [Your Name] 👋
-
-I'm a [your profession/role, e.g., software engineer, data scientist, or hobbyist developer] passionate about [your interests, e.g., building web apps, AI, or open-source contributions]. Welcome to my GitHub profile!
+# Hi there, I'm WinniePatGG 👋
 
 ## About Me
-- 🔭 Currently working on [briefly describe a current project or focus area].
-- 🌱 Learning [e.g., Rust, machine learning, or cloud computing].
-- 👯 Looking to collaborate on [e.g., open-source projects related to your field].
-- 🤔 Fun fact: [add something fun about yourself].
-- 💬 Ask me about [topics you're expert in].
-- 📫 Reach me at: [your email or LinkedIn/Twitter handle].
+- 🔭 Currently working on lunaris-mc.de (my minecraft server).
+- 🌱 Learning (Java, Kotlin, Python, JavaScript).
+- 🤔 Fun fact: I like playing Minecraft.
+- 💬 Ask me about Minecraft Servers.
+- 📫 Reach me at: winniepatgg@web.de.
 
 ## My Tech Stack
-- Languages: Python, JavaScript, [add more]
-- Frameworks: React, Django, [add more]
-- Tools: Git, Docker, [add more]
+- Languages: Python, JavaScript
+- Tools: Git, Docker, Portainer, Servers
 
 ## GitHub Stats
 Here are some graphs showcasing my GitHub activity:
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical)
-![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=winniepatgg&show_icons=true&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=winniepatgg&layout=compact&theme=radical)
+![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=winniepatgg&theme=radical)
 
-*(Replace `yourusername` with your actual GitHub username in the URLs above. These are powered by [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) and [github-readme-streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats). Feel free to customize the theme!)*
+These are powered by [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) and [github-readme-streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats).
 
 ## Featured Projects
-- [Project 1](link-to-repo): Brief description.
-- [Project 2](link-to-repo): Brief description.
-- [More...](https://github.com/yourusername?tab=repositories)
+- [WinnieAPI](https://github.com/WinniePatGG/WinnieAPI): My API for checking minecraft server status and much more fun stuff.
+- [Gambling Plugin](https://github.com/WinniePatGG/GamblingPlugin): Gambling plugin for Minecraft.
+- [More...](https://github.com/winniepatgg?tab=repositories)
 
-Thanks for visiting! ⭐ If you like what you see, give my repos a star!
+Thanks for visiting! ⭐ If you like what I do, give my repos a star!
