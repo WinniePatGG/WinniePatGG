@@ -1,4 +1,4 @@
-# Hi there, I'm WinniePatGG 👋
+# Hi, I'm WinniePatGG 👋
 
 ## About Me
 - 🔭 Currently working on lunaris-mc.de (my minecraft server).
@@ -14,7 +14,6 @@
 ## GitHub Stats
 Here are some graphs showcasing my GitHub activity:
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=winniepatgg&show_icons=true&theme=radical)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=winniepatgg&layout=compact&theme=radical)
 
 ## Featured Projects
