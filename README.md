@@ -65,55 +65,28 @@ Outside of programming, I enjoy **swimming** and **traveling**. 🌍
 
 ---
 
-## 📊 GitHub Activity
+## 📈 GitHub Activity
 
 <div align="center">
 
-<a href="https://github.com/WinniePatGG">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=WinniePatGG&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=transparent" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WinniePatGG&layout=compact&hide_border=true&langs_count=8&theme=transparent" />
-</a>
+<img
+  src="./assets/contributions.svg"
+  alt="Patrick's GitHub contribution graph"
+  width="900"
+/>
 
 </div>
 
-<br>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=WinniePatGG&theme=transparent&hide_border=true" />
-
-</div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-
-[![Patrick's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=WinniePatGG\&theme=github-compact\&hide_border=true\&area=true)](https://github.com/WinniePatGG)
-
-</div>
-
----
 
 ## 🐍 Contribution Snake
 
 <div align="center">
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/WinniePatGG/WinniePatGG/output/github-contribution-grid-snake-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/WinniePatGG/WinniePatGG/output/github-contribution-grid-snake.svg"
-  />
-  <img
-    alt="GitHub contribution snake"
-    src="https://raw.githubusercontent.com/WinniePatGG/WinniePatGG/output/github-contribution-grid-snake.svg"
-  />
-</picture>
+<img
+  src="./assets/snake.svg"
+  alt="Patrick's contribution snake"
+  width="900"
+/>
 
 </div>
 
