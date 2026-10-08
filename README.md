@@ -43,18 +43,6 @@ Outside of programming, I enjoy **swimming** and **traveling**. 🌍
 <div align="center">
 
 <img
-  src="./assets/contributions.svg"
-  alt="Patrick's GitHub contribution graph"
-  width="900"
-/>
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img
   src="./assets/stats.svg"
   alt="Patrick's GitHub stats"
   width="900"
@@ -66,11 +54,7 @@ Outside of programming, I enjoy **swimming** and **traveling**. 🌍
 
 <div align="center">
 
-<img
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=WinniePatGG&layout=compact&theme=github_dark&hide_border=true&langs_count=8"
-  alt="Patrick's most used languages"
-/>
-
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=WinniePatGG&langs_count=4&theme=transparent)](https://github-stats-extended.vercel.app/api/top-langs?username=WinniePatGG&langs_count=4&theme=transparent)
 </div>
 
 ---
