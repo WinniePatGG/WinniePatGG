@@ -22,7 +22,7 @@ jobs:
         run: |
           cat > query.json <<'EOF'
           {
-            "query": "query($login:String!) { user(login:$login) { contributionsCollection { contributionCalendar { totalContributions weeks { contributionDays { date contributionCount contributionLevel color } } } } } }",
+            "query": "query($login:String!) { user(login:$login) { contributionsCollection { totalCommitContributions totalPullRequestContributions totalIssueContributions totalPullRequestReviewContributions restrictedContributionsCount contributionCalendar { totalContributions weeks { contributionDays { date contributionCount contributionLevel color } } } } } }",
             "variables": {
               "login": "WinniePatGG"
             }
@@ -52,15 +52,17 @@ jobs:
               print(json.dumps(data["errors"], indent=2))
               raise SystemExit("GitHub GraphQL request failed.")
 
-          calendar = (
+          collection = (
               data["data"]
               ["user"]
               ["contributionsCollection"]
-              ["contributionCalendar"]
           )
+
+          calendar = collection["contributionCalendar"]
 
           weeks = calendar["weeks"]
           total = calendar["totalContributions"]
+          private = collection["restrictedContributionsCount"]
 
           # ==========================================================
           # CONTRIBUTION GRAPH
@@ -287,9 +289,112 @@ jobs:
               encoding="utf-8"
           )
 
+          # ==========================================================
+          # STATS CARD
+          # ==========================================================
+
+          active_days = sum(
+              1 for d in days if d["contributionCount"] > 0
+          )
+
+          longest = 0
+          run = 0
+
+          for d in days:
+              if d["contributionCount"] > 0:
+                  run += 1
+                  longest = max(longest, run)
+              else:
+                  run = 0
+
+          i = len(days) - 1
+
+          if i >= 0 and days[i]["contributionCount"] == 0:
+              i -= 1
+
+          current = 0
+
+          while i >= 0 and days[i]["contributionCount"] > 0:
+              current += 1
+              i -= 1
+
+          metrics = [
+              ("Contributions", f"{total:,}"),
+              ("Private", f"{private:,}"),
+              ("Active days", f"{active_days:,}"),
+              ("Current streak", f"{current}d"),
+              ("Longest streak", f"{longest}d"),
+          ]
+
+          width = 900
+          height = 190
+
+          pad = 30
+          box_top = 66
+          box_height = 98
+          box_gap = 15
+          box_count = len(metrics)
+
+          box_width = (
+              width - pad * 2 - box_gap * (box_count - 1)
+          ) / box_count
+
+          svg = [
+              f'<svg xmlns="http://www.w3.org/2000/svg" '
+              f'viewBox="0 0 {width} {height}" '
+              f'width="{width}" height="{height}">',
+
+              '<rect width="100%" height="100%" rx="12" fill="#0d1117"/>',
+
+              '<style>',
+              'text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }',
+              '</style>',
+
+              f'<text x="{pad}" y="30" '
+              f'fill="#f0f6fc" font-size="14" font-weight="600">'
+              f'GitHub Stats</text>',
+
+              f'<text x="{width - pad}" y="30" '
+              f'fill="#8b949e" font-size="11" text-anchor="end">'
+              f'Last 12 months · private contributions included</text>',
+          ]
+
+          for index, (label, value) in enumerate(metrics):
+
+              x = pad + index * (box_width + box_gap)
+              center = x + box_width / 2
+
+              svg.append(
+                  f'<rect x="{x:.1f}" y="{box_top}" '
+                  f'width="{box_width:.1f}" height="{box_height}" '
+                  f'rx="8" fill="#161b22" stroke="#21262d"/>'
+              )
+
+              svg.append(
+                  f'<text x="{center:.1f}" y="{box_top + 36}" '
+                  f'fill="#8b949e" font-size="11" '
+                  f'text-anchor="middle">{label}</text>'
+              )
+
+              value_color = "#39d353" if index == 0 else "#f0f6fc"
+
+              svg.append(
+                  f'<text x="{center:.1f}" y="{box_top + 74}" '
+                  f'fill="{value_color}" font-size="26" '
+                  f'font-weight="700" text-anchor="middle">{value}</text>'
+              )
+
+          svg.append("</svg>")
+
+          Path("assets/stats.svg").write_text(
+              "\n".join(svg),
+              encoding="utf-8"
+          )
+
           print("Generated:")
           print("  assets/contributions.svg")
           print("  assets/snake.svg")
+          print("  assets/stats.svg")
           PY
 
       - name: Commit generated graphs
@@ -297,7 +402,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add assets/contributions.svg assets/snake.svg
+          git add assets/contributions.svg assets/snake.svg assets/stats.svg
 
           if git diff --cached --quiet; then
             echo "No graph changes."
