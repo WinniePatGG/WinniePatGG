@@ -4,7 +4,7 @@
 
 <a href="https://github.com/WinniePatGG">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=900&color=39D353&center=true&vCenter=true&width=650&height=50&lines=Student+%26+Software+Developer;Java+%7C+Backend+%7C+Infrastructure;Self-hosting+on+Linux+with+Docker;Building+software+people+want+to+use"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=900&color=39D353&center=true&vCenter=true&width=650&lines=Student+%26+Software+developer;Self-hosting+on+Linux+with+Docker;Java+%7C+Backend+%7C+Modding)](https://git.io/typing-svg"
     alt="Student & Software Developer · Java | Backend | Infrastructure · Self-hosting on Linux with Docker · Building software people want to use"
   />
 </a>
@@ -55,42 +55,47 @@ Outside of programming, I enjoy **swimming** and **traveling**. 🌍
 
 ---
 
-## 🛠️ Technologies
+## 🛠️ Languages & Frameworks & Tools
 
-### Languages
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-
-### Frameworks & Runtimes
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![discord.js](https://img.shields.io/badge/discord.js-5865F2?style=flat-square&logo=discord&logoColor=white)
-![Minecraft Plugins](https://img.shields.io/badge/Minecraft%20Plugins-62B47A?style=flat-square&logo=minecraft&logoColor=white)
-
-### Infrastructure
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Nginx Proxy Manager](https://img.shields.io/badge/Nginx%20Proxy%20Manager-F15833?style=flat-square&logo=nginx&logoColor=white)
-![Portainer](https://img.shields.io/badge/Portainer-13BEF9?style=flat-square&logo=portainer&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+<div align="center">
+  <img src="https://skillicons.dev/icons/?i=github,gitlab,discord,cloudflare,vscode,idea,webstorm,ai"> <br>
+  <img src="https://skillicons.dev/icons/?i=git,linux,ubuntu,windows,godot,npm,docker"> <br>
+  <img src="https://skillicons.dev/icons/?i=html,css,java,python,javascript,bash"> <br>
+  <img src="https://skillicons.dev/icons/?i=discordjs,express,nginx,nodejs,sqlite">
+</div>
 
 ---
 
-## 💻 Tools
+## 💻 Development Environment
 
-| Tool              | Why I use it                    |
-| ----------------- | ------------------------------- |
-| **IntelliJ IDEA** | Java development                |
-| **VS Code**       | General development & scripting |
-| **Termius**       | Managing remote servers         |
+| Tool | Purpose |
+|:---|:---|
+| <img src="https://skillicons.dev/icons?i=idea" width="18" height="18" alt="IntelliJ IDEA"> **IntelliJ IDEA** | Java development |
+| <img src="https://skillicons.dev/icons?i=vscode" width="18" height="18" alt="VS Code"> **VS Code** | General development & scripting |
+| <img src="https://skillicons.dev/icons?i=webstorm" width="18" height="18" alt="WebStorm"> **WebStorm** | JavaScript & TypeScript development |
+| <img src="https://skillicons.dev/icons?i=git" width="18" height="18" alt="Git"> **Git** | Version control |
+| <img src="https://skillicons.dev/icons?i=github" width="18" height="18" alt="GitHub"> **GitHub** | Repository hosting & collaboration |
+| <img src="https://skillicons.dev/icons?i=gradle" width="18" height="18" alt="Gradle"> **Gradle** | Build automation & dependency management |
+| <img src="assets/termius.svg" width="18" height="18" alt="Termius"> **Termius** | Remote server management |
 
+## 🖥️ Infrastructure & Self-Hosting
+
+| Tool | Purpose |
+|:---|:---|
+| <img src="https://skillicons.dev/icons/?i=linux" width="18" height="18"> **Linux / Ubuntu** | Server administration |
+| <img src="https://skillicons.dev/icons/?i=docker" width="18" height="18"> **Docker** | Containerization |
+| <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/portainer.svg" width="18" height="18"> **Portainer** | Container management |
+| <img src="assets/nginx_proxy_manager.png" width="18" height="18"> **Nginx Proxy Manager** | Reverse proxy & HTTPS management |
+| <img src="https://skillicons.dev/icons/?i=cloudflare" width="18" height="18"> **Cloudflare** | DNS & domain management |
+
+## 🧰 Additional Technologies
+
+| Tool | Purpose |
+|:---|:---|
+| <img src="https://skillicons.dev/icons/?i=nodejs" width="18" height="18"> **Node.js** | JavaScript runtime |
+| <img src="https://skillicons.dev/icons/?i=npm" width="18" height="18"> **npm** | Package management |
+| <img src="https://skillicons.dev/icons/?i=sqlite" width="18" height="18">**SQLite** | Lightweight database |
+| <img src="https://skillicons.dev/icons/?i=bash" width="18" height="18"> **Bash** | Shell scripting |
 ---
 
 ## 🌍 Beyond Code
@@ -126,7 +131,5 @@ When I'm not coding, you'll probably find me:
 <div align="center">
 
 ### Thanks for visiting! 👋
-
-*Always learning. Always building.*
 
 </div>
