@@ -4,7 +4,7 @@
 
 <a href="https://github.com/WinniePatGG">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=900&color=39D353&center=true&vCenter=true&width=650&lines=Student+%26+Software+developer;Self-hosting+on+Linux+with+Docker;Java+%7C+Backend+%7C+Modding)](https://git.io/typing-svg"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=900&color=39D353&center=true&vCenter=true&width=650&lines=Student+%26+Software+developer;Self-hosting+on+Linux+with+Docker;Java+%7C+Backend+%7C+Modding"
     alt="Student & Software Developer · Java | Backend | Infrastructure · Self-hosting on Linux with Docker · Building software people want to use"
   />
 </a>
