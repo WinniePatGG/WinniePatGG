@@ -18,7 +18,10 @@
 <br>
 
 [![GitHub](https://img.shields.io/badge/GitHub-WinniePatGG-181717?style=flat-square&logo=github)](https://github.com/WinniePatGG)
+<br>
 [![Email](https://img.shields.io/badge/Email-winniepat%40proton.me-6D4AFF?style=flat-square&logo=protonmail&logoColor=white)](mailto:winniepat@proton.me)
+<br>
+[![Discord](https://img.shields.io/badge/Discord-WinniePatGG's_Community-181717?style=flat-square&logo=discord)](https://discord.gg/jhmbNNZxdM)
 
 </div>
 
