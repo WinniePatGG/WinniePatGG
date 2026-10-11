@@ -42,11 +42,7 @@ Outside of programming, I enjoy **swimming** and **traveling**. 🌍
 
 <div align="center">
 
-<img
-  src="./assets/stats.svg"
-  alt="Patrick's GitHub stats"
-  width="900"
-/>
+[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=WinniePatGG&rank_icon=github&show_icons=true&include_all_commits=true&theme=transparent)](https://github-stats-extended.vercel.app/api?username=WinniePatGG&rank_icon=github&show_icons=true&include_all_commits=true&theme=transparent)
 
 </div>
 
